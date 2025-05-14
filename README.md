@@ -1,0 +1,1 @@
+# ruby-exercise-monthly-sales-aggregator
