@@ -1,5 +1,11 @@
 # ruby-exercise-monthly-sales-aggregator
 
+## 使い方
+main.rbを実行してください。
+```
+ruby main.rb
+```
+
 ## 達成したいことと要件定義
 ### 達成したいこと
 - 複数部門の売上データをまとめたい
@@ -53,7 +59,7 @@
 ### sales_aggregator.rb
 - 入力
   - レコードからmonth `"2025-05"`を抽出
-  - `[month, department]`でハッシュ化する
+  - `[month, department, item]`をキーとしてハッシュ化する
   - 各グループで値計算する
     - `total_amount`：　amount合計
     - `total_quantity`：　quantityの合計
